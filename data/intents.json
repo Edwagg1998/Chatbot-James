@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Oi", "Olá", "E aí", "Bom dia", "Boa tarde", "Boa noite"],
+      "responses": ["Oi! Como posso te ajudar hoje?", "Olá! Tudo bem?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até mais", "Falou", "Até logo"],
+      "responses": ["Até logo!", "Volte sempre, Edu 😄"]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Valeu", "Agradeço", "Muito obrigado"],
+      "responses": ["De nada! 😄", "Tamo junto!"]
+    },
+    {
+      "tag": "horario",
+      "patterns": ["Que horas são?", "Qual o horário agora?"],
+      "responses": ["Não tenho relógio aqui, mas posso te lembrar de perguntar ao Google 😅"]
+    },
+    {
+      "tag": "nome",
+      "patterns": ["Qual seu nome?", "Quem é você?"],
+      "responses": ["Sou o Chatbot do Edu, seu assistente virtual 🤖"]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["Preciso de ajuda", "Pode me ajudar?", "Ajuda"],
+      "responses": ["Claro! O que você precisa saber?", "Tô aqui pra te ajudar, manda ver!"]
+    }
+  ]
+}
